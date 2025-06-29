@@ -9,6 +9,7 @@ import os
 import subprocess
 import platform
 
+
 def pad(text, block_size):
     pad_len = block_size - len(text) % block_size
     return text + chr(pad_len) * pad_len
@@ -17,6 +18,7 @@ def unpad(text):
     pad_len = ord(text[-1])
     return text[:-pad_len]
 
+# key generation
 def generate_key_aes():
     return base64.b64encode(get_random_bytes(16)).decode()
 
