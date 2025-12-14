@@ -10,7 +10,8 @@ storage and transmission, while maintaining a simple and intuitive user experien
 ------
 USER Guide 
 Open Terminal & Follow these Steps
-Step 1 >>>>>>  Clone the Repo in required Folder:- git clone https://github.com/ABHAYMATHUR07/cryptox.git
+
+Step 1 >>>>>>  Clone the Repo in required Folder:-git clone https://github.com/ABHAYMATHUR07/cryptox.git
 
 Step 2 >>>>>>  Download the required Python Libraries :- pip install -r requirements.txt
 
